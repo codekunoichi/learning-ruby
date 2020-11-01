@@ -1,6 +1,10 @@
 # learning-ruby
 
+# Overview
+
 My journey of learning Ruby and Ruby on Rails Framework
+
+# Installation
 
 - MacOS comes with a Ruby preinstalled. To check the version use the following command
 
@@ -45,3 +49,11 @@ My journey of learning Ruby and Ruby on Rails Framework
 - You can refresh the bash profile on the current terminal by executing the following command
 
 `source ~/.bash_profile`
+
+# Choosing Code Editor
+
+- Since I am a beginner, I will choose Atom Editor.
+- You can download the editor at `https://atom.io/`
+- Once you download, link your Atom Editor to your GitHub project for easy SCM.
+- Install the add-on `atom-runner` by going into the Atom --> Preferences --> Install --> Search for `atom-runner`
+- Click on `settings` for the package once you install to see the commands to how to use the code editor and inline highlight and execute commands.
