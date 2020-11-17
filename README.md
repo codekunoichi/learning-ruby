@@ -57,3 +57,9 @@ My journey of learning Ruby and Ruby on Rails Framework
 - Once you download, link your Atom Editor to your GitHub project for easy SCM.
 - Install the add-on `atom-runner` by going into the Atom --> Preferences --> Install --> Search for `atom-runner`
 - Click on `settings` for the package once you install to see the commands to how to use the code editor and inline highlight and execute commands.
+
+## Hello World!
+
+- `puts "Hello World!"` place it in `example.rb`
+- command+R to execute the file inside Atom Runner
+- Output will look like following: ![Atom Runner](../img/AtomRunner.png?raw=true)
