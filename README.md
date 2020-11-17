@@ -62,4 +62,4 @@ My journey of learning Ruby and Ruby on Rails Framework
 
 - `puts "Hello World!"` place it in `example.rb`
 - command+R to execute the file inside Atom Runner
-- Output will look like following: ![Atom Runner](../img/AtomRunner.png?raw=true)
+- Output will look like following: ![Atom Runner](./img/AtomRunner.png?raw=true)
