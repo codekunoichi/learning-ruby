@@ -61,5 +61,10 @@ My journey of learning Ruby and Ruby on Rails Framework
 ## Hello World!
 
 - `puts "Hello World!"` place it in `example.rb`
+
+### Executing the ruby file content
+
 - command+R to execute the file inside Atom Runner
 - Output will look like following: ![Atom Runner](./AtomRunner.png?raw=true)
+- On the terminal type in `ruby example.rb`
+- Another way to play with Ruby code is Interactive Ruby - `irb` ![Terminal Runner](./terminal.png?raw=true)
