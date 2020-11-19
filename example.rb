@@ -9,3 +9,5 @@ if user_input.include? "s"
 else
    puts "No ss found!"
 end
+
+30.times {print "Ruby!"}
