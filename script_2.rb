@@ -34,8 +34,8 @@ redact = gets.chomp
 words = text.split(" ")
 words.each { |word|
   if word == redact
-    print "REDACTED"
+    print "REDACTED "
   else
-    print word
+    print word + " "
   end
    }
