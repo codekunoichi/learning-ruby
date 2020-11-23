@@ -24,3 +24,18 @@ state = gets.chomp
 state.upcase!
 
 print "My name is #{first_name} #{last_name}. I live is #{city} and #{state}!"
+
+puts "Enter some text: "
+text = gets.chomp
+
+puts "Enter words to redact: "
+redact = gets.chomp
+
+words = text.split(" ")
+words.each { |word|
+  if word == redact
+    print "REDACTED"
+  else
+    print word
+  end
+   }
