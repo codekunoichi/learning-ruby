@@ -20,3 +20,8 @@ pets["pinki"] = "gerbil"
 pets["chutki"] = "rabbit"
 
 puts pets
+
+puts pets["Jane"]
+puts pets["boomba"]
+puts pets["pinki"]
+puts pets["chutki"]
