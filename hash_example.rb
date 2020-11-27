@@ -25,3 +25,44 @@ puts pets["Jane"]
 puts pets["boomba"]
 puts pets["pinki"]
 puts pets["chutki"]
+
+secret_identities = {
+  "The Batman" => "Bruce Wayne",
+  "Superman" => "Clark Kent",
+  "Wonder Woman" => "Diana Prince",
+  "Freakazoid" => "Dexter Douglas"
+}
+
+secret_identities.each do |movie, actor|
+  puts "#{movie}: #{actor}"
+end
+
+lunch_order = {
+  "Ryan" => "wonton soup",
+  "Eric" => "hamburger",
+  "Jimmy" => "sandwich",
+  "Sasha" => "salad",
+  "Cole" => "taco"
+}
+
+lunch_order.each do |name, food|
+  puts "#{food}"
+end
+
+puts "Please enter your name:"
+text = gets.chomp
+
+words = text.split
+
+frequencies = Hash.new(0)
+
+words.each { |word| frequencies[word] += 1}
+
+frequencies = frequencies.sort_by do | word, count|
+  count
+end
+frequencies.reverse!
+
+frequencies.each do |word, count|
+  puts word + " " + count.to_s
+end
