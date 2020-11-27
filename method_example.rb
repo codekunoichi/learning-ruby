@@ -18,3 +18,15 @@ prime(9)
 prime(11)
 prime(51)
 prime(97)
+
+def greeter(name)
+  return name
+end
+
+def by_three?(number)
+  if number % 3 == 0
+    return true
+  else
+    return false
+  end
+end
