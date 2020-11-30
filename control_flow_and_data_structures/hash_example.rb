@@ -66,3 +66,19 @@ frequencies.reverse!
 frequencies.each do |word, count|
   puts word + " " + count.to_s
 end
+
+
+matz = { "First name" => "Yukihiro",
+  "Last name" => "Matsumoto",
+  "Age" => 47,
+  "Nationality" => "Japanese",
+  "Nickname" => "Matz"
+}
+
+matz.each do |key, value|
+  puts matz[key]
+end
+
+no_nil_hash = Hash.new("my default value")
+
+puts no_nil_hash["abc"]
