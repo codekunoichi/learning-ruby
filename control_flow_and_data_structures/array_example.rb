@@ -22,3 +22,18 @@ languages.each { |element| puts element }
 s = [["ham", "swiss"], ["turkey", "cheddar"], ["roast beef", "gruyere"]]
 
 s.each { |sub_array| sub_array.each{|x| puts x}}
+
+strings = ["HTML", "CSS", "JavaScript", "Python", "Ruby"]
+
+symbols = []
+
+strings.each do |s|
+  symbols.push(s.to_sym)
+end
+
+
+symbols_2 = []
+
+strings.each do |s|
+  symbols_2.push(s.intern)
+end

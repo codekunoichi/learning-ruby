@@ -82,3 +82,18 @@ end
 no_nil_hash = Hash.new("my default value")
 
 puts no_nil_hash["abc"]
+
+# Symbol - are immutable and only one copy exists, saving memory
+symbol_hash = {
+  :one => 1,
+  :two => 2,    # Fill in these two blanks!
+  :three => 3,
+}
+
+#Since Ruby 1.9 the hash changed from tiny rocket to colon
+movies = {
+  mission_impossible: "MI6 Secret Spy Movie",
+  star_wars: "Star Wars Saga"
+}
+
+puts movies
