@@ -60,7 +60,7 @@ ERROR:  Possible alternatives: bundler
 sudo networksetup -setv6off Wi-Fi
 ```
 
-After this retrying the CLI again for `rails new test_app` worked!
+After this retrying the CLI again for `rails new test_app`
 
 Rails will now create
 
@@ -72,6 +72,18 @@ Now it's time to test your application. Start your server:
 
 ```
 $ rails server
+```
+
+The server exited with an error to i nstall webpacker. when trying to install webpacker, it complained about yarn.
+
+So folloing is
+
+```
+brew install yarn
+```
+
+```
+ rails webpacker:install
 ```
 
 Goto localhost:3000 into the address bar. If everything works correctly, you see the welcome to Ruby on Rails page.
