@@ -68,3 +68,12 @@ My journey of learning Ruby and Ruby on Rails Framework
 - Output will look like following: ![Atom Runner](./AtomRunner.png?raw=true)
 - On the terminal type in `ruby example.rb`
 - Another way to play with Ruby code is Interactive Ruby - `irb` ![Terminal Runner](./terminal.png?raw=true)
+
+## Installing Unit Testing Capabiility
+
+Install the following gems used by rspec unit tests
+
+```
+$ gem install rspec
+$ gem install rspec-its
+```
