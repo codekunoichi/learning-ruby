@@ -77,3 +77,7 @@ Install the following gems used by rspec unit tests
 $ gem install rspec
 $ gem install rspec-its
 ```
+
+# Important API to refer to
+
+[https://ruby-doc.org/core-2.5.0/String.html](Ruby String Doc)
