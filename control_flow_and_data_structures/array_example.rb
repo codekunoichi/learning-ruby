@@ -52,3 +52,33 @@ p arr_words[-3, 2]
 p arr_words[2..4]
 
 puts arr_words.join(", ")
+
+# using the array data structure Ruby can simulate a stack, queue or the array itself
+
+# stack example using array
+stack = []
+stack.push ("one")
+stack.push ("two")
+stack << ("three")
+print stack
+
+puts stack.pop
+
+print stack
+
+# queue example using arrays
+queue = []
+queue.push "one"
+queue.push "two"
+print queue
+puts queue.shift
+print queue
+
+a = [5, 4, 3, 2, 1].sort!
+p a
+a.reverse!
+p a
+p a.sample(2)
+
+a[6] = 32
+p a 
