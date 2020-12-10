@@ -1,2 +1,4 @@
 graded-assignments
 *.zip
+.DS_Store
+.exercism
