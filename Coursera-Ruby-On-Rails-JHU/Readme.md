@@ -1,6 +1,16 @@
 # Installation Steps
 
 ```
+echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
+```
+
+Apply to current terminal
+
+```
+$ source ~/.bash_profile
+```
+
+```
 $ rbenv install -l
 ```
 
@@ -74,9 +84,9 @@ Now it's time to test your application. Start your server:
 $ rails server
 ```
 
-The server exited with an error to i nstall webpacker. when trying to install webpacker, it complained about yarn.
+The server exited with an error to install webpacker. when trying to install webpacker, it complained about yarn.
 
-So folloing is
+So following is
 
 ```
 brew install yarn
@@ -89,3 +99,34 @@ brew install yarn
 Goto localhost:3000 into the address bar. If everything works correctly, you see the welcome to Ruby on Rails page.
 
 Click on About your application's environment to verify your Ruby and Rails versions.
+
+# Coursera JHU steps
+
+- `gem uninstall rails`
+- `gem uninstall railites`
+- <https://gist.github.com/stonehippo/cc0f3098516fb52390f1>
+- Based on a discussion thread - ```
+- Install Ruby version 2.6.3 - here is how to install a new Ruby version if you are using rbenv - <https://gist.github.com/stonehippo/cc0f3098516fb52390f1>
+- Switch globally to Ruby 2.6.3 using rbenv
+- At this point, you should not have any Rails versions installed (if you do uninstall ALL Rails versions as well as railties...)
+- Install Rails 4.2.11 ```
+
+```
+$ echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
+```
+
+Apply to current terminal
+
+```
+$ source ~/.bash_profile
+$ rbenv install 2.6.3
+$ rbenv global 2.6.3
+$ gem install rails -v 4.2.11
+$ gem uninstall bundler -v ">= 2.0"
+$ gem install bundler -v "< 2.0"
+$ rm -rf recipe_puppy_bootstrap/
+$ git clone https://github.com/jhu-ep-coursera/recipe_puppy_bootstrap.git
+$ cd recipe_puppy_bootstrap/
+$ bundle install
+$ rails s
+```
