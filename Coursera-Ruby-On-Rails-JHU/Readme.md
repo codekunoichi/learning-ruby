@@ -130,3 +130,16 @@ $ cd recipe_puppy_bootstrap/
 $ bundle install
 $ rails s
 ```
+
+# Assignment Tips
+
+- `rake routes` Lets you see which routes are available and which controller is associated with it. -
+
+  ```
+  <%= link_to "Recipes" http://www.recipeURL.com %>
+  ```
+
+# Important Helpful Links
+
+- <http://rubygems.org>
+- <https://www.programmableweb.com/>
